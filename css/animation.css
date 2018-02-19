@@ -1,20 +1,18 @@
 .animated
 {
-    -webkit-animation-duration: 2s;
-            animation-duration: 2s;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
     
 }
 
- .container
+ .container,section
 {
     overflow: hidden;
 }
 
-header .container{
-    overflow: visible;
-}
 
-/* .sevices-content .row .col-md-4:nth-child(1) .animation
+
+.sevices-content .row .col-md-4:nth-child(1) .animation
 {
     -webkit-animation-delay: 0;
             animation-delay: 0;
@@ -93,4 +91,4 @@ footer .row .col-md-4:nth-child(3) .animation
         animation: none;
         opacity: 1;
     }
-} */
+}
